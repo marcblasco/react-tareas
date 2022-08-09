@@ -1,14 +1,16 @@
 
 import '../css/Task.css' 
+import { AiOutlineDelete } from "react-icons/ai";
 
-function Task({text}){
+
+function Task({text, completed}){
     return(
-        <div className="task-container">
+        <div className={completed ? 'task-container completed' : 'task-container' }>
             <div className="task-text">
                 {text}
             </div>
-            <div className="task-icon">
-                Delete
+            <div className="task-container-icon">
+                <AiOutlineDelete className="task-icon"/>
             </div>
         </div>
 

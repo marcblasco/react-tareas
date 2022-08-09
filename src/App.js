@@ -14,7 +14,7 @@ function App() {
       </div>
       <div className='tasks-list'>
         <h1>My Tasks</h1>
-        <Task/>
+        <Task text='Learn React'/>
       </div>
     </div>
   );
