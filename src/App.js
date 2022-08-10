@@ -1,8 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import freeCodeCampLogo from './img/freecode.png'; 
-import Task from './components/Task';
-import TaskForm from './components/TaskForm';
+import TaskList from './components/TaskList';
 
 
 
@@ -16,7 +14,7 @@ function App() {
       </div>
       <div className='tasks-list'>
         <h1>My Tasks</h1>
-        <TaskForm/>
+        <TaskList/>
       </div>
     </div>
   );
