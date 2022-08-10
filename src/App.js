@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import freeCodeCampLogo from './img/freecode.png'; 
-import Task from './components/Task';
+import TaskList from './components/TaskList';
+
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       </div>
       <div className='tasks-list'>
         <h1>My Tasks</h1>
-        <Task text='Learn React'/>
+        <TaskList/>
       </div>
     </div>
   );
